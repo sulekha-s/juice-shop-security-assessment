@@ -1,0 +1,7 @@
+services:
+  juice-shop:
+    image: bkimminich/juice-shop@sha256:adaf6a6ca50f772dff7d2fe56972c659e81a61e0dbbe607c2b39fefd436e6153
+    container_name: juice-shop-lab
+    ports:
+      - "127.0.0.1:3000:3000"
+    restart: "no"
